@@ -61,7 +61,7 @@ $(document).ready(function(){
                 $(this).addClass("Open");
                 $(".menu").stop(true).animate({width: '400px'});
             }
-        },
+        }, //Hover
         "mouseenter": function(){
             if (!itemSelected) {
                 $(this).find("ul").stop(true).show().animate({width: '100px'});
