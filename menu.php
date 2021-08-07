@@ -85,7 +85,7 @@ echo "
 <!-- To create new items on the menu, follow this structure
 	No dropdown:
 		<li class="navButton">
-			<button class="menuBtn btn">No Dropdown</button>
+			<a href="#"><button class="menuBtn btn">No Dropdown</button></a>
 		</li>
 
 	Dropdown:
@@ -93,13 +93,13 @@ echo "
 			<button class="menuBtn btn">Dropdown</button>
 			<ul class="navDropdown">
 				<li class="dropdownButton">
-					<button class="dropdownBtn btn">Option 1</button>
+					<a href="#"><button class="dropdownBtn btn">Option 1</button></a>
 				</li>
 				<li class="dropdownButton">
-					<button class="dropdownBtn btn">...</button>
+					<a href="#"><button class="dropdownBtn btn">...</button></a>
 				</li>
 				<li class="dropdownButton">
-					<button class="dropdownBtn btn">Option 9</button>
+					<a href="#"><button class="dropdownBtn btn">Option 9</button></a>
 				</li>
 			</ul>
 		</li>
@@ -109,28 +109,28 @@ echo "
 <div class="menu">
 	<ul class="menuNav">
 		<li class="navButton">
-			<button class="menuBtn btn">No Dropdown</button>
+			<a href="#"><button class="menuBtn btn">No Dropdown</button></a>
 		</li>
 		<li class="navButton navBtnDD">
 			<button class="menuBtn btn">Dropdown</button>
 			<ul class="navDropdown">
 				<li class="dropdownButton">
-					<button class="dropdownBtn btn">Option 1</button>
+					<a href="#"><button class="dropdownBtn btn">Option 1</button></a>
 				</li>
 				<li class="dropdownButton">
-					<button class="dropdownBtn btn">Option 2</button>
+					<a href="#"><button class="dropdownBtn btn">Option 2</button></a>
 				</li>
 				<li class="dropdownButton">
-					<button class="dropdownBtn btn">Option 3</button>
+					<a href="#"><button class="dropdownBtn btn">Option 3</button></a>
 				</li>
 				<li class="dropdownButton">
-					<button class="dropdownBtn btn">Option 4</button>
+					<a href="#"><button class="dropdownBtn btn">Option 4</button></a>
 				</li>
 				<li class="dropdownButton">
-					<button class="dropdownBtn btn">Option 5</button>
+					<a href="#"><button class="dropdownBtn btn">Option 5</button></a>
 				</li>
 				<li class="dropdownButton">
-					<button class="dropdownBtn btn">Option 6</button>
+					<a href="#"><button class="dropdownBtn btn">Option 6</button></a>
 				</li>
 			</ul>
 		</li>
@@ -138,27 +138,27 @@ echo "
 			<button class="menuBtn btn">Dropdown</button>
 			<ul class="navDropdown">
 				<li class="dropdownButton">
-					<button class="dropdownBtn btn">Option 1</button>
+					<a href="#"><button class="dropdownBtn btn">Option 1</button></a>
 				</li>
 				<li class="dropdownButton">
-					<button class="dropdownBtn btn">Option 2</button>
+					<a href="#"><button class="dropdownBtn btn">Option 2</button></a>
 				</li>
 				<li class="dropdownButton">
-					<button class="dropdownBtn btn">Option 3</button>
+					<a href="#"><button class="dropdownBtn btn">Option 3</button></a>
 				</li>
 				<li class="dropdownButton">
-					<button class="dropdownBtn btn">Option 4</button>
+					<a href="#"><button class="dropdownBtn btn">Option 4</button></a>
 				</li>
 				<li class="dropdownButton">
-					<button class="dropdownBtn btn">Option 5</button>
+					<a href="#"><button class="dropdownBtn btn">Option 5</button></a>
 				</li>
 				<li class="dropdownButton">
-					<button class="dropdownBtn btn">Option 6</button>
+					<a href="#"><button class="dropdownBtn btn">Option 6</button></a>
 				</li>
 			</ul>
 		</li>
 		<li class="navButton">
-			<button class="menuBtn btn">No Dropdown</button>
+			<a href="#"><button class="menuBtn btn">No Dropdown</button></a>
 		</li>
 	</ul>
 </div>
