@@ -1,0 +1,110 @@
+/* CSS Global Variables */
+@import "var.css";
+
+/* Sliding Menu Stylings */
+
+.menuNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:100%;
+}
+  
+.navDropdown {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    z-index: 3;
+    left: 300px;
+    top:0px;
+    width:100%;
+}
+  
+.menu {
+    width: 100%;
+    float: left;
+    background-color: var(--secondary);
+    overflow:hidden;
+    position:relative;
+    height:506px;
+    z-index: 2;
+}
+
+/* Image Styling */
+
+.jumbotron i {
+    text-align:left;
+    padding-left: 1rem;
+}
+  
+.jumbotron .container {
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-shadow: 2px 2px #000;
+    z-index: -3;
+}
+  
+.lead span {
+    color: blue;
+    font-weight: bold;
+}
+  
+.bg-cover {
+    background-size: cover;
+    overflow: hidden;
+    color: var(--blank);
+    background-position: center center;
+    position: relative;
+    z-index: -4;
+    background-image: url("../images/clave.jpg");
+}
+
+/* Navbar Styling */
+
+.navBar {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    background-color: var(--secondary);
+    padding: 0px;
+    height:75px;
+    overflow: hidden;
+}
+
+.userIcon {
+    color: var(--blank);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    align-self: flex-end;
+    height:100%;
+}
+  
+.userImg {
+    height:100%;
+    padding:0px;
+}
+
+.userIconText {
+    display: flex;
+    align-items:right;
+    flex-flow: column nowrap;
+    text-align: right;
+    margin-right:10px;
+}
+
+.userOverlay {
+    display: flex;
+    position:relative;
+    right: 0px;
+    width: 175px;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    margin: 0px !important;
+    width:0px;
+    overflow:hidden;
+}
