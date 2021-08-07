@@ -64,7 +64,7 @@ $(document).ready(function(){
         }, //Hover
         "mouseenter": function(){
             if (!itemSelected) {
-                $(this).find("ul").stop(true).show().animate({width: '100px'});
+                $(this).find("ul").stop().show().animate({width: '100px'});
                 $(".menu").animate({width: '400px'});
             }
         },

@@ -1,5 +1,11 @@
 /* CSS Global Variables */
 @import "var.css";
+/* Button Stylings */
+@import "buttons.css";
+
+body {
+    margin:0;
+}
 
 /* Sliding Menu Stylings */
 
