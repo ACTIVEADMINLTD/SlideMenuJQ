@@ -33,7 +33,7 @@ body {
     background-color: var(--secondary);
     overflow:hidden;
     position:relative;
-    height:auto;
+    height:100%;
     z-index: 2;
 }
 
