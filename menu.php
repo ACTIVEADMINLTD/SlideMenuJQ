@@ -1,8 +1,6 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Clocks</title>
-
   <!-- Font Awesome -->
   <script src="https://use.fontawesome.com/9adb65dd0f.js"></script>
 
@@ -18,7 +16,7 @@
   <!-- Personal stylesheet -->
   <link rel="stylesheet" href="css/menu.css">
 </head>
-
+<body>
 <!-- Get user data from database using cookie -->
 <?php
 
@@ -162,3 +160,4 @@ echo "
 		</li>
 	</ul>
 </div>
+</body>
