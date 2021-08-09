@@ -8,8 +8,9 @@
 # Unlimited dropdowns
 # Easily customisable
 # Easily implemented into any PHP project
-# More coming soon
+# Coming Soon:
+# Mobile adjustments
 
-# To implement:
+# To install:
 # Place all files and directories into the root of your project
 # Include the php file above the body tag in any page you want the menu
